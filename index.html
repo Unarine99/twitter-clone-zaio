@@ -9,6 +9,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 <link rel="stylesheet" href="styles.css">
+<!--favicon-->
 <link rel="icon" href="https://th.bing.com/th?id=ODLS.9a21eeae-9441-480b-8692-652b0127ac95&w=32&h=32&qlt=91&pcl=fffffa&o=6&pid=1.2">
     <title>X | Twitter</title>
     <!-- bootstrap CDN -->
@@ -22,11 +23,11 @@
 
 <body class="d-flex">
 
-<div class="container col-md-2.5">
+<div class="container col-md-2 col-lg-3 h-100vh border-end">
     <div class="sidebar">
     <div class="navbar">
         <div class="logo">
-            <img src="https://th.bing.com/th?id=OSK.50a4337ddb8f32c31afe1610d3d99f0b&w=102&h=102&c=7&o=6&oif=webp&pid=SANGAM" alt="">
+            <i class="bi bi-twitter-x" style="font-size: 30px;"></i>
         </div>
     </div>
 
@@ -54,7 +55,7 @@
                         Lists
                     </span>
                     <span class="category">
-                        <i class="material-icons">people_white</i>
+                        <i class="material-icons">people</i>
                         Communities
                     </span>
                     <span class="category">
@@ -74,7 +75,7 @@
              
            </div>
 
-        <div class="account">
+        <div class="account position-sticky" style="bottom: 0px;">
             <form class="profile">
                 <i class="material-icons">account_circle</i>
                 <label form="profile">Unarine Sadike</label>
@@ -86,18 +87,254 @@
     </div>
 </div>
 
-<div class="container col-md-5.5">
-    <div class="middle-bar">
-        <span class="middle-item">For you</span>
-        <span class="middle-item">Following</span>
+<div class="container col-md-6 col-lg-5 border-end">
+    
+        <div class="middle-bar position-sticky" style="top:0px">
+            <span class="middle-item1">For you</span>
+            <span class="middle-item2">Following</span>
             <i class="bi bi-gear"></i>
-    </div>
-        <p>bjwjwfwhowhhfhwhouggavbbhegufgbuerfbreufeuigeruyrurueeeetyyyyyyyyyyyyyyyy</p>
+        </div>
+        <div class="middle-profile d-flex mt-1">
+            
+            <i class="material-icons m-3" style="font-size: 42px">account_circle</i>
+           
+                    <label for="exampleFormControlInput1" class="form-label"></label>
+                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="What is happening?!">
+            
+        </div>
+        <div class="extras text-start mt-2">
+            <i class="bi bi-image color-blue"></i>
+            <i class="bi bi-filetype-gif"></i>
+            <i class="bi bi-sliders"></i>
+            <i class="bi bi-emoji-smile"></i>
+            <i class="bi bi-calendar2"></i>
+            <i class="bi bi-geo-alt"></i>
+            <form class="middle-post text-end">
+                <button type="post" class="btn btn-primary">Post</button>
+            </form>
+        </div>
+
+        <div class="tweets">
+            <div class="tweet-grid">
+                <div class="tweet">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="tweet mt-4">
+                                <div class="row">
+                                    <div class="col-2">
+                                        <img src="https://placekitten.com/40/40" class="img-fluid"/>
+                                    </div>
+                                    <div class="col-10">
+                                        <div>
+                                            <strong>Oscar...</strong>
+                                            <span>@Oscar...</span>
+                                        </div>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam adipisci quae tempora iusto cumque dignissimos aperiam rerum sed assumenda excepturi distinctio recusandae odit quidem exercitationem nulla, dicta reiciendis ea pariatur?</p>
+                                        <div><img src="https://placekitten.com/600/300" class="img-fluid"/></div>
+                                    </div>
+                                </div>
+                                <div class=" last-icons border-bottom d-flex mt-3">
+                                <i class="bi bi-chat"><span>5.7K</span></i>
+                                <i class="bi bi-calendar2"><span>2.1K</i>
+                                <i class="bi bi-suit-heart"><span>3.3K</i>
+                                <i class="bi bi-chat"><span>1.1</i>
+                                    <div class="align-items-end horizontal-align-end">
+                                        <i class="bi bi-bookmark"></i>
+                                        <i class="bi bi-box-arrow-up"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tweet mt-4">
+                                <div class="row">
+                                    <div class="col-2">
+                                        <img src="https://placekitten.com/40/40" class="img-fluid"/>
+                                    </div>
+                                    <div class="col-10">
+                                        <div>
+                                            <strong>Oscar...</strong>
+                                            <span>@Oscar...</span>
+                                        </div>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam adipisci quae tempora iusto cumque dignissimos aperiam rerum sed assumenda excepturi distinctio recusandae odit quidem exercitationem nulla, dicta reiciendis ea pariatur?</p>
+                                        <div><img src="https://placekitten.com/600/300" class="img-fluid"/></div>
+                                    </div>
+                                </div>
+                                <i class="bi bi-chat"><span><small>5.7K</small></span></i>
+                                <i class="bi bi-calendar2"><span>5.7K</i>
+                                <i class="bi bi-suit-heart"><span>5.7K</i>
+                                <i class="bi bi-chat"><span>5.7K</i>
+                                <i class="bi bi-bookmark text-end"></i>
+                                <i class="bi bi-box-arrow-up text-end"></i>
+                            </div>
+                            <div class="tweet mt-4">
+                                <div class="row">
+                                    <div class="col-2">
+                                        <img src="https://placekitten.com/40/40" class="img-fluid"/>
+                                    </div>
+                                    <div class="col-10">
+                                        <div>
+                                            <strong>Oscar...</strong>
+                                            <span>@Oscar...</span>
+                                        </div>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam adipisci quae tempora iusto cumque dignissimos aperiam rerum sed assumenda excepturi distinctio recusandae odit quidem exercitationem nulla, dicta reiciendis ea pariatur?</p>
+                                        <div><img src="https://placekitten.com/600/300" class="img-fluid"/></div>
+                                    </div>
+                                </div>
+                                <i class="bi bi-chat"><span>5.7K</span></i>
+                                <i class="bi bi-calendar2"><span>5.7K</i>
+                                <i class="bi bi-suit-heart"><span>5.7K</i>
+                                <i class="bi bi-chat"><span>5.7K</i>
+                                <i class="bi bi-bookmark"></i>
+                                <i class="bi bi-box-arrow-up"></i>
+                            </div>
+                            <div class="tweet mt-4">
+                                <div class="row">
+                                    <div class="col-2">
+                                        <img src="https://placekitten.com/40/40" class="img-fluid"/>
+                                    </div>
+                                    <div class="col-10">
+                                        <div>
+                                            <strong>Oscar...</strong>
+                                            <span>@Oscar...</span>
+                                        </div>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam adipisci quae tempora iusto cumque dignissimos aperiam rerum sed assumenda excepturi distinctio recusandae odit quidem exercitationem nulla, dicta reiciendis ea pariatur?</p>
+                                        <div><img src="https://placekitten.com/600/300" class="img-fluid"/></div>
+                                    </div>
+                                </div>
+                                <i class="bi bi-chat"><span>5.7K</span></i>
+                                <i class="bi bi-calendar2"><span>5.7K</i>
+                                <i class="bi bi-suit-heart"><span>5.7K</i>
+                                <i class="bi bi-chat"><span>5.7K</i>
+                                <i class="bi bi-bookmark"></i>
+                                <i class="bi bi-box-arrow-up"></i>
+                            </div>
+                            <div class="tweet mt-4">
+                                <div class="row">
+                                    <div class="col-2">
+                                        <img src="https://placekitten.com/40/40" class="img-fluid"/>
+                                    </div>
+                                    <div class="col-10">
+                                        <div>
+                                            <strong>Oscar...</strong>
+                                            <span>@Oscar...</span>
+                                        </div>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam adipisci quae tempora iusto cumque dignissimos aperiam rerum sed assumenda excepturi distinctio recusandae odit quidem exercitationem nulla, dicta reiciendis ea pariatur?</p>
+                                        <div><img src="https://placekitten.com/600/300" class="img-fluid"/></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                                    <i class="bi bi-chat"><span>5.7K</span></i>
+                                    <i class="bi bi-calendar2"><span>5.7K</i>
+                                    <i class="bi bi-suit-heart"><span>5.7K</i>
+                                    <i class="bi bi-chat"><span>5.7K</i>
+                                    <i class="bi bi-bookmark"></i>
+                                    <i class="bi bi-box-arrow-up"></i>
+                </div>
+            </div>
+        </div>        
+        
+        
+   
 </div>
 
-<div class="container col-md-4">
-        <p>vdvhwafvhgrfbeuigfbegfbekgfbuiebbfireugfb3gy4yrfgub</p>
+
+<div class="container col-md-4 col-lg-4">
+    <div class="position-sticky" style="top: 0px;"> 
+    <div class="search mt-4 ">
+        <input type="textarea" class="form-control" placeholder="Search" />
+    </div>
+    </div>
+
+    <div class="subscribe mt-4 p-3">
+        <div>
+           <h4>Subscribe to Premium</h4>
+           <p>Subscribe to unlock new features and if eligible, receive a share of ads revenue.</p>
+           <button type="Subscribe" class="btn btn-primary">Subscribe</button>
+        </div>
+    </div>
+    <div class="trends mt-4 p-3">
+        <div>
+            <h4>Trends for you</h4>
+        </div>
+        <div class="row">
+            <div class="col-9 mt-3">
+                <div class="text">
+                    <div><small>Trending</small></div>
+                    <div><strong>Cassper</Strong></div>
+                    <div><small>1,534 posts</small></div>
+                </div>
+            </div>
+            <div class="col-3 mt-3">
+                <i class="bi bi-three-dots"></i>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-9 mt-3">
+                <div class="text">
+                    <div><small>Trending in South Africa</small></div>
+                    <div><strong>NSFAS</Strong></div>
+                    <div><small>1,574 posts</small></div>
+                </div>
+            </div>
+            <div class="col-3 mt-3">
+                <i class="bi bi-three-dots"></i>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-9 mt-3">
+                <div class="text">
+                    <div><small>Trending</small></div>
+                    <div><strong>UCT High School</Strong></div>
+                    <div><small>2,222 posts</small></div>
+                </div>
+            </div>
+            <div class="col-3 mt-3">
+                <i class="bi bi-three-dots"></i>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-9 mt-3">
+                <div class="text">
+                    <div><small>Trending</small></div>
+                    <div><strong>University of Venda</Strong></div>
+                    <div><small>2,544 posts</small></div>
+                </div>
+            </div>
+            <div class="col-3 mt-3">
+                <i class="bi bi-three-dots"></i>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-9 mt-3">
+                <div class="text">
+                    <div><small>Politics . Trending</small></div>
+                    <div><strong>Cyril Rmaphosa</Strong></div>
+                    <div><small>3,534 posts</small></div>
+                </div>
+            </div>
+            <div class="col-3 mt-3">
+                <i class="bi bi-three-dots"></i>
+            </div>
+        </div>
+    </div>
+    
+    <div class="footer mt-4 p-3">
+        <div class="first-line">
+            <span>Terms of Service</span>
+            <span>Privacy Policy</span>
+            <span>Cookie Policy</span>
+        </div>
+        <div class="second-line">
+            <span>Accessibility</span>
+            <span>Ads info</span>
+            <span>More <i class="bi bi-three-dots"></i></span>
+            <span>2024 X Zaio Clone</span>
+        </div>
+    </div>
 </div>
+        
+
 
 </body>
 </html>
